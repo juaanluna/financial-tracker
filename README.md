@@ -44,6 +44,13 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
+## Run migrations
+
+```bash
+$ yarn migration:generate ./src/database/migrations/create-expense-table
+
+```
+
 ## Run tests
 
 ```bash
